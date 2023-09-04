@@ -15,7 +15,7 @@
     "test": "vitest --globals"
   },
   "dependencies": {
-    "core-js": "^3.28.0",
+    "core-js": "^3.32.1",
     "lodash.uniqueid": "^4.0.1",
     "vue": "^3.2.47"
   },
