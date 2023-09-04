@@ -8,7 +8,13 @@ module.exports = {
     parser: "@babel/eslint-parser",
   },
   rules: {
-    "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    semi: ["error", "always"],
+    "no-unused-vars": "error",
+    indent: ["error", 2],
+    quotes: ["error", "double"],
+    "no-trailing-spaces": "error",
+    "comma-dangle": ["error", "always-multiline"],
+    "no-multiple-empty-lines": ["error", { max: 1 }],
+    "no-extra-parens": "error",
   },
 };
