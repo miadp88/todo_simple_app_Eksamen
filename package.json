@@ -7,8 +7,7 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vite build",
     "lint": "vue-cli-service lint",
     "dev": "vite",
     "preview": "vite preview",

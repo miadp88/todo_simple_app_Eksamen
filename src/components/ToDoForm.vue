@@ -33,4 +33,9 @@ export default {
     };
   },
 };
+
+// sum.js im using this to test if its working
+export function sum(a, b) {
+  return a + b;
+}
 </script>
